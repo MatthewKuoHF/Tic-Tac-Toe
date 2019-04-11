@@ -1,0 +1,33 @@
+<html>
+    <title>Exercise</title>
+    <style>
+        table, tr{border-color: black;border-collapse:collapse;border-style:solid;border-width:1px;border-collapse:collapse;}
+        td{border-color: black;border-collapse:collapse;border-style:solid;border-width:1px;border-collapse:collapse;width: 100px;height: 100px;text-align: center;vertical-align: middle;font-family: sans-serif;font-size: 80;}
+    </style>
+    <body>
+        <script src="game.js"></script>
+        <h3>Player 1: X<br>Player 2: O</h3>
+        <div id="message" style="color: red;"></div><br>
+        <div id="startOver" style="display: none;">
+            <input type="button" onclick="startOver();" value="Start Over?">
+            <br><br>
+        </div>
+        <table id="tb">
+            <tr>
+                <td id="cell1" onclick="cellClick(this);">&nbsp;</td>
+                <td id="cell2" onclick="cellClick(this);">&nbsp;</td>
+                <td id="cell3" onclick="cellClick(this);">&nbsp;</td>
+            </tr>
+            <tr>
+                <td id="cell4" onclick="cellClick(this);">&nbsp;</td>
+                <td id="cell5" onclick="cellClick(this);">&nbsp;</td>
+                <td id="cell6" onclick="cellClick(this);">&nbsp;</td>
+            </tr>
+            <tr>
+                <td id="cell7" onclick="cellClick(this);">&nbsp;</td>
+                <td id="cell8" onclick="cellClick(this);">&nbsp;</td>
+                <td id="cell9" onclick="cellClick(this);">&nbsp;</td>
+            </tr>
+        </table>
+    </body>
+</html>
