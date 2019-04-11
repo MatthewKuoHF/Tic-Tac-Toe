@@ -1,4 +1,4 @@
-<a href="http://codd.cs.gsu.edu/~hkuo2/tic_tac_toe/index.html">Link</a>
+<a href="http://codd.cs.gsu.edu/~hkuo2/tic_tac_toe/index.html">Link to the game</a>
 <h2>Instruction</h2>
 <table>
 <tr>
