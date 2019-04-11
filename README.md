@@ -18,7 +18,7 @@
     <td width=500px><img src="http://codd.cs.gsu.edu/~hkuo2/tic_tac_toe/check.png"><br/><img src="http://codd.cs.gsu.edu/~hkuo2/tic_tac_toe/check2.png"></td>
 </tr>    
 <tr>
-    <td><h3>Step 5: Show result</h3>When the game is over, lock the table so no player can draw on it anymore. Show who wins the game or no one wins.<br/>Then allow users to start over with reload() function.</td>
+    <td><h3>Step 5: Show result</h3>When the game is over, lock the table so no player can draw on it anymore. Show who wins the game or no one wins. Then allow users to start over with reload() function.</td>
     <td width=500px><img src="http://codd.cs.gsu.edu/~hkuo2/tic_tac_toe/over.png"><br/></td>
 </tr> 
 </table>
